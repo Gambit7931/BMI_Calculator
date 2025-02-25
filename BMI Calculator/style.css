@@ -1,0 +1,27 @@
+body {
+    background-color: bisque;
+    border: grey 10px solid;
+    border-radius: 10px;
+}
+.input {
+    background-color: crimson;
+    border: black 5px solid;
+    height: 50%;
+    padding-top: 60px;
+}
+.inp {
+    height: 50px;
+    width: 1000px;
+    font-size: 25px;
+}
+.button {
+    height: 30px;
+    width: 200px;
+    font-size: 14px;
+    background-color:grey;
+    color: beige;
+}
+#img {
+    height: 200px;
+    width: 500px;
+}

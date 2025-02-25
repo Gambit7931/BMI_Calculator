@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <title>BMI Calculator</title>
+        <link rel = "stylesheet" href = "style.css">
+    </head>
+    <body>
+        <center>
+            <h1 id = "title">Body Mass Index Calculator</h1>
+            <div class = "input">
+                <input id = "inpHeight" placeholder="Input height in m" class = "inp">
+                <br><br>
+                <input id = "inpWeight" placeholder="Input weight in kg" class = "inp">
+                <p>*Scroll down for result.</p>
+                <br><br>
+            </div><br><br>
+            <button class = "button" id = "bmi_button" onclick = "BMI_Calculator()">Calculate BMI</button>
+            <button class = "button" onclick = "clearField()">Clear Values</button>
+            <br><br><br>
+            <img src = "BMI_image.jpeg" id = "img">
+            <h2 id = "result"></h2>
+        </center>
+        <script src = "main.js"></script>
+    </body>
+</html>
